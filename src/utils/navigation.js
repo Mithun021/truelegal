@@ -10,7 +10,7 @@ export const navItems = [
       {
         label: "About True Legal",
         path: "/about-true-legal",
-      },
+      }, 
       {
         label: "Management",
         path: "/management",
@@ -56,10 +56,10 @@ export const navItems = [
         label: "Difference Between True Legal and Others",
         path: "/difference",
       },
-      {
-        label: "How to Prevent a Mishap",
-        path: "/how-to-prevent",
-      },
+      // {
+      //   label: "How to Prevent a Mishap",
+      //   path: "/how-to-prevent",
+      // },
       {
         label: "Rates",
         path: "/rates",

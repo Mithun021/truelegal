@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import AboutSection from "../components/home/AboutSection";
 import AppointmentCTA from "../components/home/AppointmentCTA";
 import AppointmentSection from "../components/home/AppointmentSection";
@@ -13,6 +14,21 @@ import MainLayout from "../components/layout/MainLayout";
 export default function Home() {
   return (
     <MainLayout>
+        <Helmet>
+          <title>
+            True Path Legal Consultant | Medico Legal Protection Services
+          </title>
+
+          <meta
+            name="description"
+            content="True Path Legal Consultant provides medico legal protection, risk management, professional indemnity services and healthcare legal support for doctors, hospitals and healthcare institutions across India."
+          />
+
+          <meta
+            name="keywords"
+            content="medico legal consultant, doctor legal protection, hospital legal services, indemnity services, risk management"
+          />
+        </Helmet>
         <Banner />
         <WhyChoose/>
         <InHouseLawyers />

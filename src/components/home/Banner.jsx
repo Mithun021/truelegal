@@ -88,8 +88,8 @@ export default function Banner() {
 
                     <h1
                       className="
-                      text-5xl
-                      lg:text-7xl
+                      text-3xl
+                      lg:text-5xl
                       font-bold
                       leading-tight
                       mb-8
