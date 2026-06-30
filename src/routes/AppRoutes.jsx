@@ -18,6 +18,7 @@ import HospitalRequirement from "../pages/HospitalRequirement";
 import AwarenessProgram from "../pages/AwarenessProgram";
 import Contact from "../pages/Contact";
 import Blogs from "../pages/Blogs";
+import BlogDetails from "../pages/BlogDetails";
 
 export default function AppRoutes(){
     return (
@@ -41,6 +42,7 @@ export default function AppRoutes(){
             <Route path="/awareness-program" element={<AwarenessProgram />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:slug" element={<BlogDetails />} />
         </Routes>
     )
 }
